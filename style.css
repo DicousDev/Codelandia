@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Inter-Medium;
+    src: url(/fontes/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(/fontes/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: LexendDeca;
+    src: url(/fontes/LexendDeca-Regular.ttf);
+}
+
+body {
+    background-color: #F3F5F4;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: var(--linear);
+    height: 250px;
+}
+
+.header-group {
+    padding-top: 2.563rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4.563rem;
+}
+
+.menu_item {
+    color: var(--white);
+    font-family: LexendDeca, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
+.searchbar {
+    width: 100%;
+    background-image: url(./Image/Lupa.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 50px;
+}
+
+.search {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: var(--white);
+    font-size: 1.125rem;
+    outline: none;
+    width: 100%;
+    padding: 22px 65px;
+}
+
+.search::placeholder {
+    font-family: Inter-Regular, sans-serif;
+    font-weight: normal;
+    color: var(--white);
+    opacity: 0.6;
+}
+
+main {
+    margin-top: 100px;
+}
+
+main .article {
+    background-color: var(--white);
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.article_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.article_header p {
+    color: var(--text);
+    font-size: 1.1rem;
+    font-family: LexendDeca, sans-serif;
+}
+
+.favorite {
+    background-color: transparent;
+    cursor: pointer;
+    width: 2.75rem;
+    height: 2.75rem;
+    background-image: url(./Image/heart.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.text_title {
+    font-family: LexendDeca, sans-serif;
+    margin-bottom: 10px;
+    color: var(--title);
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.text_content {
+    max-width: 95%;
+    line-height: 2rem;
+    font-family: LexendDeca, sans-serif;
+    font-size: 1.1rem;
+    color: var(--text);
+}
