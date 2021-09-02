@@ -13,4 +13,4 @@ Nesse projeto, tentei deixar o máximo igual ao original. Passei por grandes exp
 ✔ Tamanho das divs
 
 
-<img src="./Image/CodelandiaDesafioOne">
+<img src="./Image/CodelandiaDesafioOne.png">
